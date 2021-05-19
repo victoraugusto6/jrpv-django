@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
 from pathlib import Path
 from decouple import config, Csv
 
@@ -30,6 +29,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # Application definition
 
 INSTALLED_APPS = [
+    'devpro.encurtador',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
