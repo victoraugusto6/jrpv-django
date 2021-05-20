@@ -1,6 +1,8 @@
 ### Projeto da Jornada Rumo a Primeira Vaga da Python Pro
 
-> Link do projeto no [Heroku](https://jrpv-django-encurtador.herokuapp.com/)
+> Link do projeto no Heroku:
+> * https://jrpv-django-encurtador.herokuapp.com/relatorios/google
+> * https://jrpv-django-encurtador.herokuapp.com/relatorios/pythonpro
 
 Este projeto é realizado em Django e tem como objetivo criar um redirecionamento de links.
 
